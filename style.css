@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    }
+
+
+body {
+    background-image: url('desk-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover; /*to make full background*/
+    background-position: center;
+}
+/* the main container */
+
+.front-side{
+  width: 370px;
+  height: 600px;
+  /* display: grid; */
+  /* each student will customize based on their grid */
+  /* grid-template-columns: 2% 96% 2%;
+  grid-template-rows: 4% 92% 4%; */
+  position: relative;
+  /* adjust this to space out the cards */
+  margin: 20px auto;
+  overflow: hidden;
+  box-shadow: 2px 5px 15px 0px #17161694;
+
+  background-color:rgb(250, 234, 214);
+  border-style: solid;
+  border-radius: 23%;
+  border-width: 4px;
+  border-color: rgb(169, 115, 21);
+  
+}
+
+.front-side{  
+  background-image: url('card.gif');
+  background-position: -170px -405px; /*So the first one is x the second one is y DO NOT ADD "," cause it wont work*/
+  background-size: 180%;
+  background-repeat: no-repeat;
+
+}
+
+.name{
+  display: grid;
+  margin-top: 355px; /*This moved it down*/
+  font-weight: 700;/*Had to put font weight in here beacuse it was being over ridden*/
+  font-size: 27px;/*Adding this beacuse h1 was being over ridden at some point*/
+  background-color:rgba(250, 234, 214, 0.632); /*Added shadding to My Name*/
+  padding: 6px; /*How big is box*/
+   
+}
+
+.about{
+  display: grid;
+  position: center;
+  font-weight: 400;
+  font-size: 17px;
+  background-color:rgba(250, 234, 214, 0.632); /*This adds the box in the background of the about part*/
+  padding: 7px;
+}
+
+.contact{
+  margin-top: 0px;
+  font-weight: 400;
+  font-size: 17px;
+  background-color:rgba(250, 234, 214, 0.666); /*This adds the box in the background of the about part*/
+  padding: 6px;
+}
+
+img.resize {
+  max-width:35px;
+  max-height:35px;
+}
+/*
+.back-side{
+  background-image: url('social.png');
+  background-position: -10px ; 
+}*/
+
+/*
+
+.secondary{
+  display: grid;
+  margin-top: 170px;
+}
+
+h3{
+  font-weight: 700; /*font type can be found in html
+}*/
